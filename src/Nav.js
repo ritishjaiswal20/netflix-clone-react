@@ -15,8 +15,6 @@ function Nav() {
       window.removeEventListener("scroll",transitionNavBar);
     }
   },[])
- 
-
   return (
       <div className={`nav ${show && "nav_black"}`}>
     <img
